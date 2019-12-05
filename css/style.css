@@ -1,0 +1,26 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Prompt', sans-serif;
+}
+
+p {
+	font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.header{
+	padding: 22% 0; 
+	width: 100%;
+	height: 100%;
+	color: #ffffff;
+  	background: linear-gradient(to bottom right, #00dbde, #fc00ff);
+}
+
+.welcome{
+	font-size: 2.5em;
+	padding-left: 3%;
+
+}
