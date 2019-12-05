@@ -137,7 +137,7 @@ a, p {
 	overflow: hidden;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 767px) {
 	#note img{
 		width: 15%;
 		height: auto;
@@ -147,6 +147,8 @@ a, p {
 	}
 	.section-part{
 		width: 50px;
+		min-height: 600px;
+		margin-top: 200px; 
 	}
 }
 .section-part{
@@ -172,11 +174,14 @@ a, p {
 	background: linear-gradient(to bottom right, #a600ff, #fc00ff);  
 }
 .footer{
-	background: linear-gradient(to bottom right, #00dbde, #4800ff);
+	background-color: rgba(0, 0, 0, 0.8); 
 	color: #ffffff;
 	box-shadow: 5px 0px 0px rgba(0,0,0,0.6);
-	padding-top: 0.5%;
+	padding-top: 0.7%;
 	padding-bottom: 0.1%;
 	margin-top: 5%;
 	width: 100%;
+}
+.footer a{
+	margin: 0 auto;
 }
