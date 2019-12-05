@@ -9,6 +9,7 @@ h1, h2, h3, h4, h5, h6 {
 
 a, p {
 	font-family: 'Ubuntu Condensed', sans-serif;
+	font-size: 22px; 
 }
 
 .header{
@@ -17,7 +18,6 @@ a, p {
 	width: 100%;
 	height: 100%;
 	color: #ffffff;
-  	/*background: linear-gradient(to bottom right, #00dbde, #fc00ff);*/
   	background: url(../asset/blue-bg-11.jpg);
   	background-size: cover;
   	text-align: center;
@@ -41,9 +41,18 @@ a, p {
   background:#ffffff;
   color:#000000;
 }
+.btn-blue{
+  background:linear-gradient(to bottom right, #fc00ff, #00dbde);
+  color:#ffffff;
+}
 .btn:hover{
   color: #000000;
   box-shadow:0px 10px 10px rgba(0,0,0,0.2);
+  transform : translateY(-3px);
+}
+.btn-blue:hover{
+  color: #ffffff;
+  
   transform : translateY(-3px);
 }
 .btn:active{
@@ -70,6 +79,9 @@ a, p {
 .btn-white::after {
   background: #ffffff;
 }
+.btn-blue::after {
+  background: linear-gradient(to bottom right, #fc00ff, #00dbde);
+}
 .btn-animation-1:hover::after {
   transform: scaleX(1.4) scaleY(1.6);
   opacity: 0;
@@ -87,8 +99,74 @@ a, p {
 #note{
 	text-align: center;
 	border-radius: 25px; 
-	
 	box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
 	margin: 2.5%;
 	padding: 5%;
+	height: 500px;
+}
+.object1 {
+  animation: MoveUpDown 2.5s linear infinite;
+  animation-delay: 1s;
+  position: relative;
+  left: 0;
+  bottom: 0;
+}
+.object2 {
+  animation: MoveUpDown 2.5s linear infinite;
+  animation-delay: 1.25s;
+  position: relative;
+  left: 0;
+  bottom: 0;
+}
+.object3 {
+  animation: MoveUpDown 2.5s linear infinite;
+  animation-delay: 1.5s;
+  position: relative;
+  left: 0;
+  bottom: 0;
+}
+@keyframes MoveUpDown {
+  0%, 100% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 90px;
+  }
+}
+#mosaik-musik{
+	overflow: hidden;
+}
+
+@media only screen and (max-width: 700px) {
+	#note img{
+		width: 15%;
+		height: auto;
+	}
+	#note{
+		font-size: 35%;
+		height: 560px; 
+	}
+}
+
+.section{
+	background: linear-gradient(to bottom right, #fc00ff, #00dbde);
+	padding-top: 2%;
+	padding-bottom: 5%;
+}
+
+#section-container{
+	margin: 0 5%;
+	padding: 0;
+	display: flex;
+}
+
+#section-part{
+	background-color: #ffffff;  
+	border-radius: 25px; 
+	box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
+	margin: 1%;
+	margin-top: 5%;
+	padding: 3%;
+	height: 500px;
+	width: 100%;
 }

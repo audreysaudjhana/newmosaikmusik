@@ -18,26 +18,96 @@
 
 <body>
 	<div class="header">
-		<div class="welcome">
+		<div class="welcome" data-aos-offset="50" data-aos-delay="50" data-aos-duration="2000" data-aos="fade">
 			<h2 style="font-size: 4em;">Selamat Datang di</h2>
 			<h1 style="font-size: 6.5em;">Mosaik Musik</h1><br/> 
 		</div>
-		<a href="#note" class="btn btn-white btn-animation-1">Lihat lebih lanjut</a><br/><br/><br/>
-		<img src="asset/arrow-down.png" width="5%" height="auto" class="animated infinite bounce delay-0.5s">
+		<a href="#mosaik-musik" class="btn btn-white btn-animation-1" data-aos-offset="50" data-aos-delay="150" data-aos-duration="2500" data-aos="fade">Lihat lebih lanjut</a><br/><br/><br/>
+		<img src="asset/arrow-down.png" width="5%" height="auto" class="animated infinite bounce delay-0.5s" data-aos-offset="50" data-aos-delay="150" data-aos-duration="2500" data-aos="fade">
+	</div><br/>
+
+	<div id="mosaik-musik"><br/><br/>
+		<div id="note" data-aos-offset="200" data-aos-delay="50" data-aos-duration="1000" data-aos="fade-up">
+			<img src="asset/note1.png" width="9%" height="auto" class="object1">
+			<img src="asset/note2.png" width="9%" height="auto" class="object2">
+			<img src="asset/note3.png" width="9%" height="auto" class="object3">
+			<br/><br/>
+			<h2>Mosaik musik adalah tempat yang tepat</h2>
+			<p id='demo' style='display: none; font-size: 28px;'>Tempat yang tepat bagi kamu yang senang musik. Bagi kamu-kamu yang senang bereksplorasi dalam musik, yang percaya bahwa <i>music is my life</i>, musik adalah hidupmu. Eits, bagi kamu yang di sini karena<i>nyasar</i>, jangan khawatir, karena di sini tersimpan petualangan menyenangkan yang menantimu.</p><br/><br/><br/><br/>
+			<div id=button-2 data-aos-offset="50" data-aos-delay="50" data-aos-duration="1000" data-aos="fade-up">     
+				<a href="#mosaik-musik" onclick="toggleText()" class="btn btn-blue btn-animation-1">Tempat yang tepat???</a>
+			</div>
+		</div>
+	</div><br/><br/>
+
+	<div class="container">
+		<div class="row" style="margin-top: 5%;">
+			<div class="col-md">
+				<h2>Tes</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+			<div class="col-md">
+				<img src="asset/sporty-girl.jpg" width="100%" height="auto">
+			</div>
+		</div>
+
+		<div class="row" style="margin-top: 5%; margin-bottom: 5%;">
+			<div class="col-md-6">
+				<img src="asset/music-girl.jpg" width="100%" height="auto">
+			</div>
+			<div class="col-md-6">
+				<h2>Tes</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+		</div>
 	</div>
 
-	<div id="note">
-		<img src="asset/note1.png" width="7%" height="auto">
-		<img src="asset/note2.png" width="7%" height="auto">
-		<img src="asset/note3.png" width="7%" height="auto">
-		<br/><br/>
-		<h2>Mosaik musik adalah tempat yang tepat</h2>
+<div class="section">
+	<div class="container" id="section-container">
+			<div class="col-md-4" id="section-part">
+				<img src="asset/cool-music.png">
+				<h2>Tes</h2>
+				<p>Lorem ipsum dolor sit amet, </p>
+			</div>
+			<div class="col-md-4" id="section-part">
+				<img src="asset/cool-music.png">
+				<h2>Tes</h2>
+				<p>Lorem ipsum dolor sit amet, </p>
+			</div>
+			<div class="col-md-4" id="section-part">
+				<img src="asset/cool-music.png">
+				<h2>Tes</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do </p>
+			</div>
 	</div>
+</div>
 
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
  		<script>
     		AOS.init();
  		</script>
+
+<script type="text/javascript">
+	function toggleText() {
+		var text = document.getElementById("demo");
+		if (text.style.display === "none") {
+	    	text.style.display = "block";
+	  	} else {
+	    	text.style.display = "none";
+	  	}
+	}
+</script>
+
 
 <script>
 $(document).ready(function(){
