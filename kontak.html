@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/style-kontak.css">
+	<link rel="stylesheet" type="text/css" href="contact-form-handler.php">
+	<link rel="stylesheet" href="fontawesome/css/all.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Asap|Righteous&display=swap">
+	<link rel="shortcut icon" href="asset/logo-transparan.png">
+	<title>Mosaik Musik</title>
+</head>
+
+<body>
+<input type="checkbox" id="navcheck" role="button" title="menu">
+<label for="navcheck" aria-hidden="true" title="menu">
+	<span class="burger">
+		<span class="bar">
+			<span class="visuallyhidden">Menu</span>
+		</span>
+	</span>
+</label>
+<nav id="menu">
+	<a href="./index.html"><i class="fas fa-home"></i> Beranda</a>
+	<a href="./sejarah.html"><i class="fas fa-history"></i> Sejarah</a>
+	<a href="./genre.html"><i class="fas fa-compact-disc"></i> Genre</a>
+	<a href="./kuis.html"><i class="fas fa-question-circle"></i> Kuis</a>
+	<a href="./kontak.html"><i class="fas fa-phone-alt"></i> Kontak</a>
+</nav>
+
+<div class="contactFrm">
+	<div class="container-contact100">
+		<div class="wrap-contact100">
+			<form class="contact100-form validate-form"  action="contact-form-handler.php" method="post">
+				<span class="contact100-form-title">
+					Kami, Tim Sublime, siap mendengar suara anda! 
+				</span>
+
+				<div class="wrap-input100 validate-input" data-validate="Name is required">
+					<span class="label-input100">Nama</span>
+					<input class="input100" type="text" name="name" placeholder="Masukkan nama anda" required>
+					<span class="focus-input100"></span>
+				</div>
+
+				<div class="wrap-input100 validate-input" data-validate = "Valid email is required: alamat-email-anda@email.com">
+					<span class="label-input100">E-mail</span>
+					<input class="input100" type="text" name="email" placeholder="Masukkan e-mail anda" required>
+					<span class="focus-input100"></span>
+				</div>
+
+				<div class="wrap-input100 validate-input" data-validate = "Message is required">
+					<span class="label-input100">Pesan</span>
+					<textarea class="input100" name="message" placeholder="Pesan anda di sini ...." required></textarea>
+					<span class="focus-input100"></span>
+				</div>
+
+				<div class="container-contact100-form-btn">
+					<div class="wrap-contact100-form-btn">
+						<div class="contact100-form-bgbtn"></div>
+						<button class="contact100-form-btn" type="submit" name="submit">
+							<span>
+								Kirim
+								<i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
+							</span>
+						</button>
+					</div>
+				</div>
+				<div class="clear"> </div>
+			</form>
+		</div>
+	</div>
+</div>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-23581568-13');
+</script>
+
+</body>
+</html>
