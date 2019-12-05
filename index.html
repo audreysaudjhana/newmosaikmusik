@@ -19,14 +19,40 @@
 <body>
 	<div class="header">
 		<div class="welcome">
-			<h2>Selamat Datang di</h2>
-			<h1>Mosaik Musik</h1>
+			<h2 style="font-size: 4em;">Selamat Datang di</h2>
+			<h1 style="font-size: 6.5em;">Mosaik Musik</h1><br/> 
 		</div>
+		<a href="#note" class="btn btn-white btn-animation-1">Lihat lebih lanjut</a><br/><br/><br/>
+		<img src="asset/arrow-down.png" width="5%" height="auto" class="animated infinite bounce delay-0.5s">
+	</div>
+
+	<div id="note">
+		<img src="asset/note1.png" width="7%" height="auto">
+		<img src="asset/note2.png" width="7%" height="auto">
+		<img src="asset/note3.png" width="7%" height="auto">
+		<br/><br/>
+		<h2>Mosaik musik adalah tempat yang tepat</h2>
 	</div>
 
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
  		<script>
     		AOS.init();
  		</script>
+
+<script>
+$(document).ready(function(){
+  $("a").on('click', function(event) {
+    if (this.hash !== "") {
+      event.preventDefault();
+      var hash = this.hash;
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 900, function(){
+        location.hash = hash;
+      });
+    }
+  });
+});
+</script>
 </body>
 </html>
