@@ -39,6 +39,9 @@ a, p {
 .welcome{
 	padding-left: 3%;
 }
+.header .btn:visited{
+  display: none;
+}
 .btn:link,
 .btn:visited{
   text-decoration: none;
