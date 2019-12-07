@@ -9,7 +9,7 @@ body, html {
   font-family: "Asap", sans-serif;
 }
 
-a {
+nav a {
 	font-size: 16px;
 	line-height: 1.7;
 	color: #666666;
@@ -20,11 +20,11 @@ a {
   -moz-transition: all 0.4s;
 }
 
-a:focus {
+nav a:focus {
 	outline: none !important;
 }
 
-a:hover {
+nav a:hover {
 	text-decoration: none;
 }
 
@@ -82,7 +82,7 @@ nav ul li a {
   padding: 0 20px;
   transition: .5s; 
 }
-a:hover{
+nav a:hover{
   text-decoration: none;
   color: black;
 }
