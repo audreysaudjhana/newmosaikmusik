@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/style-sejarah.css">
+	<link rel="stylesheet" href="fontawesome/css/all.css">
+	<link href="https://fonts.googleapis.com/css?family=Asap|Prompt&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/css/swiper.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/js/swiper.min.js"></script>
+	<link rel="shortcut icon" href="asset/logo-transparan.png">
+	<title>Mosaik Musik</title>
+</head>
+
+<script src="js/bootstrap.min.js"></script>
+<body>
+<nav>
+	<ul>
+		<li><a href="./index.html" target="_blank">Beranda</a></li>
+		<li><a href="./sejarah.html" target="_blank">Sejarah</a></li>
+		<li><a href="./genre.html" target="_blank">Genre</a></li>
+		<li><a href="./kuis.html" target="_blank">Kuis</a></li>
+		<li><a href="./kontak.html">Kontak</a></li>
+	</ul>
+</nav>
+
+<!--<div class="container konten-sejarah" style="position:relative;">
+		<img src="asset/medieval-music.jpg" height="350" width="auto" style="position:absolute; top:0; left:0; border-radius: 50px; 
+  box-shadow: 0px 5px 10px rgba(0,0,0,0.2); z-index: 5;">
+		<div class="sejarah" style="position:absolute; top:125px; left:27%;">
+			<h1>Medieval (400-1400an)</h1>
+			<p>Pada masa ini, di abad pertengahan, musik sangat dipengaruhi oleh kekuasaan gereja pada masa itu dan kemudian notasinya berkembang menjadi musical repertoire. Apa sih musical repertoire itu? Musical repertoire ialah kumpulan dari lembaran musik yang dimainkan secara individual, ensambel atau dimainkan dengan instrumen dan choir. Sayangnya, musik-musik dari masa ini rusak dan hanya tersisa bagian kecil saja. The Gregorian Chant merupakan salah satu dari lembaran musik terkenal di masa itu.</p>
+		</div>
+	<div id="medieval">
+	</div>
+</div>-->
+
+<div class="blog-slider">
+  <div class="blog-slider__wrp swiper-wrapper">
+    <div class="blog-slider__item swiper-slide">
+      <div class="blog-slider__img">
+        
+        <img src="https://res.cloudinary.com/muhammederdem/image/upload/v1535759872/kuldar-kalvik-799168-unsplash.jpg" alt="">v
+      </div>
+      <div class="blog-slider__content">
+        <span class="blog-slider__code">26 December 2019</span>
+        <div class="blog-slider__title">Lorem Ipsum Dolor</div>
+        <div class="blog-slider__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae voluptate repellendus magni illo ea animi? </div>
+        <a href="#" class="blog-slider__button">READ MORE</a>
+      </div>
+    </div>
+    <div class="blog-slider__item swiper-slide">
+      <div class="blog-slider__img">
+        <img src="https://res.cloudinary.com/muhammederdem/image/upload/v1535759871/jason-leung-798979-unsplash.jpg" alt="">
+      </div>
+      <div class="blog-slider__content">
+        <span class="blog-slider__code">26 December 2019</span>
+        <div class="blog-slider__title">Lorem Ipsum Dolor2</div>
+        <div class="blog-slider__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae voluptate repellendus magni illo ea animi?</div>
+        <a href="#" class="blog-slider__button">READ MORE</a>
+      </div>
+    </div>
+    
+    <div class="blog-slider__item swiper-slide">
+      <div class="blog-slider__img">
+        <img src="https://res.cloudinary.com/muhammederdem/image/upload/v1535759871/alessandro-capuzzi-799180-unsplash.jpg" alt="">
+      </div>
+      <div class="blog-slider__content">
+        <span class="blog-slider__code">26 December 2019</span>
+        <div class="blog-slider__title">Lorem Ipsum Dolor</div>
+        <div class="blog-slider__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae voluptate repellendus magni illo ea animi?</div>
+        <a href="#" class="blog-slider__button">READ MORE</a>
+      </div>
+    </div>
+    
+  </div>
+  <div class="blog-slider__pagination"></div>
+</div>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js">
+</script>
+<script>
+	var swiper = new Swiper('.blog-slider', {
+      spaceBetween: 30,
+      effect: 'fade',
+      loop: true,
+      mousewheel: {
+        invert: false,
+      },
+      // autoHeight: true,
+      pagination: {
+        el: '.blog-slider__pagination',
+        clickable: true,
+      }
+    });
+</script>
+ 		<script>
+    		AOS.init();
+ 		</script>
+</body>
+</html>

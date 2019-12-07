@@ -150,9 +150,6 @@ a, p {
     bottom: 90px;
   }
 }
-#mosaik-musik{
-	overflow: hidden;
-}
 @media only screen and (min-width: 748px) and (max-width: 870px) {
   #button-2{
     margin-top: 50px;
@@ -167,9 +164,6 @@ a, p {
 	#note img{
 		width: 15%;
 		height: auto;
-	}
-	#note{
-		height: 580px; 
 	}
 	.section-part{
 		width: 50px;
@@ -216,17 +210,6 @@ nav a:focus {
 
 nav a:hover {
   text-decoration: none;
-}
-
-h1,h2,h3,h4,h5,h6 {
-  margin: 0px;
-}
-
-p {
-  font-size: 14px;
-  line-height: 1.7;
-  color: #666666;
-  margin: 0px;
 }
 
 ul, li {
@@ -292,16 +275,4 @@ nav ul li a:before{
 nav ul li a:hover:before{
   transform-origin: left;
   transform: scaleX(1);
-}
-.footer{
-	background-color: rgba(0, 0, 0, 0.8); 
-	color: #ffffff;
-	box-shadow: 5px 0px 0px rgba(0,0,0,0.6);
-	padding-top: 0.7%;
-	padding-bottom: 0.1%;
-	margin-top: 5%;
-	width: 100%;
-}
-.footer a{
-	margin: 0 auto;
 }
