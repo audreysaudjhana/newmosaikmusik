@@ -276,3 +276,15 @@ nav ul li a:hover:before{
   transform-origin: left;
   transform: scaleX(1);
 }
+.footer{
+  background-color: rgba(0, 0, 0, 0.8); 
+  color: #ffffff;
+  box-shadow: 5px 0px 0px rgba(0,0,0,0.6);
+  padding-top: 0.7%;
+  padding-bottom: 0.1%;
+  margin-top: 5%;
+  width: 100%;
+}
+.footer a{
+  margin: 0 auto;
+}
