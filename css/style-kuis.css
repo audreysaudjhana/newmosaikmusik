@@ -59,7 +59,7 @@ h1 {
     display:none;
     width: 100px;
 }
-strong{
+/*strong{
   color: #58ba83;
 }
 .transition{
@@ -79,10 +79,12 @@ strong{
   display: table;
   margin-top: -40px;
   margin-left: -150px;
-}
+}*/
 
 input[type="radio"]{
   cursor: pointer;
+  height: 0;
+  width: 0;
 }
 
 label {
