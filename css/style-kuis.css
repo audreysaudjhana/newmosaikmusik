@@ -1,6 +1,9 @@
 body {
     font-family: "Asap", sans-serif;
     background: linear-gradient(67deg, #00dbde 0%, #fc00ff 74%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-width: 100%; 
 }
 h1 {
     font-family: 'Prompt', sans-serif;
@@ -52,7 +55,7 @@ h1 {
 }
 #prev {
     color: #ffffff;
-    display:none;
+    display: none;
     float: left;
 }
 #start {
@@ -83,8 +86,6 @@ h1 {
 
 input[type="radio"]{
   cursor: pointer;
-  height: 0;
-  width: 0;
 }
 
 label {
@@ -100,4 +101,12 @@ label {
 }
 input[type="radio"]:checked + label{
   background-color: #58ba83;
+}
+@media only screen and (max-width: 760px) {
+  #container ul li{
+    display: block;
+  }
+  body{
+    overflow: hidden;
+  }
 }

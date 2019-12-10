@@ -170,6 +170,10 @@ a, p {
 		min-height: 600px;
 		margin-top: 200px; 
 	}
+  nav {
+    margin: auto;
+    width: 50%;
+  }
 }
 .section-part{
 	color: white;

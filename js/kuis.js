@@ -1,44 +1,44 @@
 (function() 
  {
   var allQuestions = [{
-    question: "Lagu yang dinyanyikan oleh satu orang disebut",
-    options: ["Solo", "Duet", "Trio", "Quartet"],
+    question: "Istilah dalam musik yang berarti sendiri adalah",
+    options: [" Solo", " Jomblo", " Single", " Jones"],
     answer: 0
   }, {
-    question: "Musik yang menggunakan suara manusia sebagai media utamanya adalah pengertian dari",
-    options: ["Musik instrumental", "Musik vokal", "Musik polifonik", "Musik Profan"],
+    question: "Hari musik sedunia jatuh pada tanggal ....",
+    options: [" 9 Maret", " 21 Juni", " 10 Maret", " 14 November"],
     answer: 1
   }, {
-    question: "Jenis musik yang didominasi permainan gitar penuh improvisasi adalah",
-    options: ["Musik R&B", "Musik jazz", "Musik blues","Musik rock"],
-    answer: 2
+    question: "R&B singkatan dari ....",
+    options: [" Red and Blue", " Reggae and Blues", " Red Green Blue"," Rhythm and Blues"],
+    answer: 3
   },{
     question: "Musik tradisional Talempong berasal dari daerah",
-    options: ["Sumatra barat", "Kalimantan timur", "Betawi", "Jawa barat"],
+    options: [" Sumatra Barat", " Kalimantan Timur", " Jakarta", " Jawa Barat"],
     answer: 0
   }, {
-    question: "Alat musik yang menggunakan udara sebagai sumber bunyinya disebut",
-    options: ["Membranophone", "Chordophone", "Idiophone", "Aerophone"],
+    question: "Alat musik yang menggunakan udara sebagai media getarnya disebut",
+    options: [" Membranofon", " Chordofon", " Idiofon", " Aerofon"],
     answer: 3
   },{
     question: "Alat musik yang tertua di Cina dinamakan ",
-    options: ["Qin", "Mizmar", "Shornyo", "Shamisen"],
+    options: [" Qin", " Mizmar", " Shornyo", " Shamisen"],
     answer: 0
   },{
-    question: "Musik yang berciri improvisasi, lahir, berkembang, dan populer di kalangan masyarakat kulit hitam Amerika Serikat adalah musik",
-    options: ["R & B", "Jazz", "Rap", "Rock"],
-    answer: 1
+    question: "King of Pop adalah julukan populer yang diberikan kepada",
+    options: [" BTS", " Queen", " The Beatles", " Michael Jackson"],
+    answer: 3
   },{
-    question: "Musik lebih sebagai ungkapan pribadi yang diungkapkan dalam penerapan dinamika, adalah ciri-ciri pada musik zaman",
-    options: ["Peralihan", "Romantik", "Klasik", "Barok"],
+    question: "Yang bukan merupakan komposer musik era Klasik (1750 – 1820) adalah ....",
+    options: [" Wolfgang A. Mozart", " Ludwig van Beethoven", " Johann Sebastian Bach", " Franz Schubert"],
     answer: 2
   },{
-    question: "Alat musik India yang memiliki jangkauan nada 2 oktaf dan bentuknya mirip gitar berlengan panjang adalah",
-    options: ["Tabl", "Vina", "Ong fu", "Shasin"],
+    question: "Band tertua di Indonesia",
+    options: [" Koes Bersaudara", " The Tielman Brothers", " Koes Plus", " Bimbo"],
     answer: 1
   },{
     question: "Lagu Bungong Jeumpa berasal dari daerah",
-    options: ["Jawa barat", "Sumatra barat", "Sumatra utara", "Aceh"],
+    options: [" Jawa Barat", " Sumatra Barat", " Sumatra Utara", " Aceh"],
     answer: 3
     }];
   
@@ -148,7 +148,7 @@
             correct++;
           }
         }
-        score.append('Kamu benar ' + correct + ' pertanyaan dari ' + allQuestions.length + ' pertanyaan');
+        score.append('Kamu benar ' + correct + ' dari ' + allQuestions.length + ' pertanyaan');
         return score;
   }
 })();
